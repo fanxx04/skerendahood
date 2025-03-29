@@ -5,17 +5,17 @@ getgenv().AutofarmSettings = {
     ["Underground"] = false,
 
     ["Webhook"] = {
-        ["URL"] = "https://discord.com/api/webhooks/1354836949722071160/w3KEyM7RSuGzKPjSpMwF8p17zBbI8l2XASiQTFcslsJ2OdVF7VkV6UpHMsKIt9aCqPmn",
+        ["URL"] = "https://discord.com/api/webhooks/1355521391218266222/8Luq8oDNFJ0Xf_lbk8QIZNMAIzgXbNR9l2AKM6nM5LndGuTQ9ELrtasB9C8t2gKEdGnC",
         ["Interval"] = 10
     },
 
     ["Serverhop"] = {
-        ["Cycle"]   = 0,        -- 1 = After dying once.
-        ["Time"]    = 0,        -- 1 = After 1 Minute.
+        ["Cycle"]   = 1,        -- 1 = After dying once.
+        ["Time"]    = 60,        -- 1 = After 1 Minute.
         ["Kick"]    = true,    -- true = After getting kicked.
         ["Blacklisted_IDs"] = { 1234567890, 1234567890 } -- If UserID was found ingame, Detects new joining players too.
     },
-    " warlocks atm farm - @snuffing "
+    " LsDhc On Top!"
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/2f5a5d4b9fc7ed0f115580a53bfab777.lua"))()
 
