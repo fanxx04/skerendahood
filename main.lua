@@ -5,7 +5,7 @@ getgenv().AutofarmSettings = {
     ["Underground"] = true,
 
     ["Webhook"] = {
-        ["URL"] = "",
+        ["URL"] = "https://discord.com/api/webhooks/1355521391218266222/8Luq8oDNFJ0Xf_lbk8QIZNMAIzgXbNR9l2AKM6nM5LndGuTQ9ELrtasB9C8t2gKEdGnC",
         ["Interval"] = 10
     },
 
